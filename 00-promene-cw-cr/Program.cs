@@ -10,24 +10,24 @@ namespace mnamina
                1     2   3       4      5
              string text = "hello world";
              
-             1. když vytváříme podmínku musíme nejdřív napíšem datoví typ:
+             1. Když vytváříme podmínku, musíme nejdříve napsat datový typ:
                 int - celé číslo
-                char - jednou písmeno
-                string - text (řetězec charu)
+                char - jedno písmeno
+                string - text (řetězec charů)
                 bool - logická hodnota (true/false)
                 ...
 
-             2. název proměný. Nazev by měl říkat co je v tom uložené
+             2. Název proměnné. Název by měl říkat, co je v ní uložené.
 
-             3. rovná se
+             3. Rovná se.
 
-             4. to co chci do toho uložit může to být:
-                1. jiné proměná se stejným datovým typem
-                2. konkrétní hodnota podle datového typu 
-                    - u stringu musíme přidat dvojté uvozovky (")
+             4. To, co chci do toho uložit, může být:
+                1. Jiná proměnná se stejným datovým typem.
+                2. Konkrétní hodnota podle datového typu: 
+                    - u stringu musíme přidat dvojité uvozovky (")
                     - u charu musíme přidat jednoduché uvozovky (')
              
-             5. na konci každé funkce středník (;)
+             5. Na konci každé funkce je středník (;).
 
             */
 
@@ -36,23 +36,23 @@ namespace mnamina
             char pismeno = 'a';
             bool podminka = false;
 
-            // funkce Console.WriteLine(text); vypíše do terminalu to co je v závorkách
-            // mohu vypsat jak proměnou tak pevnou hodnotu
+            // Funkce Console.WriteLine(text); vypíše do terminálu to, co je v závorkách.
+            // Mohu vypsat jak proměnnou, tak pevnou hodnotu.
 
             string text = "ahoj světe";
             int cislokKVypsani = 29;
 
-            Console.WriteLine(text); //použijem proměnou co jsme vytvořili před tím
+            Console.WriteLine(text); // Použijeme proměnnou, kterou jsme vytvořili předtím.
             Console.WriteLine("ahoj světe");
-            Console.WriteLine(cislokKVypsani); // mužem vypsat i číslo
-            Console.WriteLine(podminka); //vypíše false
+            Console.WriteLine(cislokKVypsani); // Můžeme vypsat i číslo.
+            Console.WriteLine(podminka); // Vypíše false.
 
-            //funkce Console.ReadLine(); nám umožňuje načítat od uživateke
-            //když program dorazí k cr bude čekat dokud uživatel nezadá vstup
-            //funkce pak vrátí hodnotu v typu string
+            // Funkce Console.ReadLine(); nám umožňuje načítat od uživatele.
+            // Když program dorazí k CR, bude čekat, dokud uživatel nezadá vstup.
+            // Funkce pak vrátí hodnotu v typu string.
 
-            string vstup = Console.ReadLine(); //načtu a uložim do vstup
-            Console.WriteLine(vstup); // vypíšu co jsem si uložil
+            string vstup = Console.ReadLine(); // Načtu a uložím do vstup.
+            Console.WriteLine(vstup); // Vypíšu, co jsem si uložil.
 
         }
     }
