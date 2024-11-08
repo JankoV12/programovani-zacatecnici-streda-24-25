@@ -7,28 +7,28 @@ namespace mnamina
         static void Main(string[] args)
         {
             /*
-             větvení kodu je velmi důležitá věc v programování bez ní by jsme se neobešli
+             Větvení kódu je velmi důležitá věc v programování, bez ní bychom se neobešli.
             */
 
             bool podminka = false;
             bool podminka2 = true;
 
             if (podminka)
-            {         // pokud je hodnota v podmince true tak to provede část kodu v uzavíracích závorkách
-                Console.WriteLine("prvni podmínka je true");
+            {         // Pokud je hodnota v podmínce true, provede se část kódu v uzavíracích závorkách.
+                Console.WriteLine("první podmínka je true");
             }
             else if (podminka2)
-            {         // pokud předchozí podmínky byla false a tahle (podminka2) tak to provede část kodu v uzavíracích závorkách
-                Console.WriteLine("druhá podmínka je tru");
+            {         // Pokud předchozí podmínka byla false a tato (podminka2) je true, provede se část kódu v uzavíracích závorkách.
+                Console.WriteLine("druhá podmínka je true");
             }
             else
-            {         // pokud ani jedna z předchozích podmínek (podminka, podminka2) nebyla true tak to provede část kodu v uzavíracích závorkách
+            {         // Pokud ani jedna z předchozích podmínek (podminka, podminka2) nebyla true, provede se část kódu v uzavíracích závorkách.
                 Console.WriteLine("ani jedna z podmínek není true");
             }
 
 
 
-            // v podmínkách můžeme používat i logické oparace která znáte z matiky (<,<=,> nebo =>)
+            // V podmínkách můžeme používat i logické operace, které znáte z matematiky (<, <=, > nebo >=).
 
             int cislo = 10;
 
@@ -38,17 +38,17 @@ namespace mnamina
             }
             else
             {
-                Console.WriteLine(cislo + " je menší nebo rovno než pět");
+                Console.WriteLine(cislo + " je menší nebo rovno pěti");
             }
 
 
-            //pro zjištění jestli jsou data v proměních stejná používáme dvojtý rovnáse "==" a ne jako v matice jen jedno "="
+            // Pro zjištění, jestli jsou data v proměnných stejná, používáme dvojité rovná se "==" a ne jako v matematice jen jedno "=".
 
             string mojeTajneHeslo = "1234";
             string zadaneHeslo = Console.ReadLine();
             if (mojeTajneHeslo == zadaneHeslo)
             {
-                Console.WriteLine("přistup povolen");
+                Console.WriteLine("přístup povolen");
             }
             else
             {
